@@ -1,0 +1,465 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bs",
+				"bs3-col:4	bs3-col-4"
+			],
+			[
+				"f",
+				"jquery.flipster.css"
+			],
+			[
+				"de",
+				"default.css"
+			],
+			[
+				"redir",
+				"redirHeaderValue"
+			],
+			[
+				"start",
+				"startdate"
+			],
+			[
+				"now",
+				"nowweek"
+			],
+			[
+				"bs3-col",
+				"bs3-col:7	bs3-col-7"
+			],
+			[
+				"_",
+				"_SESSION"
+			],
+			[
+				"bs3-button",
+				"bs3-button:warning	bs3-button-warning"
+			],
+			[
+				"bs3-table",
+				"bs3-table:bordered	bs3-table-bordered"
+			],
+			[
+				"bs3-bt",
+				"bs3-button:success	bs3-button-success"
+			],
+			[
+				"plac",
+				"placecount"
+			],
+			[
+				"fir",
+				"firstdaytimestamp"
+			],
+			[
+				"fi",
+				"firstdaytimestamp"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ut",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"utf",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/duckll/Sites/ucam"
+	],
+	"file_history":
+	[
+		"/Volumes/RamDisk/toolkit.js",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/Security_Program_Design/hw2/b3.php",
+		"/Users/duckll/Sites/ucam/index.php",
+		"/Users/duckll/Dropbox/programs/C++/NCYU/106.txt",
+		"/Users/duckll/Dropbox/programs/C++/NCYU/105.txt",
+		"/Users/duckll/Dropbox/programs/C++/NCYU/test.txt",
+		"/Users/duckll/Sites/ucam/css/starter-template.css",
+		"/Users/duckll/Sites/ucam/js/carousel.js",
+		"/Users/duckll/Sites/ucam/control/html.php",
+		"/Users/duckll/Sites/ucam/js/jquery.flipster.js",
+		"/Users/duckll/Sites/ucam/index.html",
+		"/Users/duckll/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/duckll/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/duckll/requestpolicy/mod/src/bootstrap.js",
+		"/Users/duckll/Dropbox/Tools/Adobe Photoshop Lightroom 4.4/code.txt",
+		"/Users/duckll/requestpolicy/mod/src/content/lib/environment.jsm",
+		"/Users/duckll/requestpolicy/mod/src/content/lib/policy-manager.alias-functions.js",
+		"/Users/duckll/requestpolicy/mod/src/content/lib/subscription.jsm",
+		"/Users/duckll/requestpolicy/mod/src/content/lib/default-preferences.js",
+		"/Users/duckll/modfre/mod/src/content/lib/request-processor.redirects.js",
+		"/Users/duckll/modfre/mod/src/bootstrap.js",
+		"/Users/duckll/modfre/mod/src/content/lib/http-response.jsm",
+		"/Users/duckll/modfre/mod/src/content/lib/logger.jsm",
+		"/Users/duckll/haha.txt",
+		"/Users/duckll/modfre/mod/Makefile",
+		"/Users/duckll/modfre/mod/src/content/lib/default-preferences.js",
+		"/Users/duckll/modfre/mod1/src/content/lib/policy-manager.jsm",
+		"/Users/duckll/modfre/mod1/src/content/lib/http-response.jsm",
+		"/Users/duckll/modfre/mod1/src/content/lib/environment.jsm",
+		"/Users/duckll/modfre/mod1/src/content/lib/environment.process.js",
+		"/Users/duckll/modfre/mod1/src/content/lib/policy-manager.alias-functions.js",
+		"/Users/duckll/modfre/mod1/src/content/ui/frame.dom-content-loaded.js",
+		"/Users/duckll/modfre/mod1/src/content/lib/request-processor.jsm",
+		"/Users/duckll/modfre/mod1/src/content/lib/request-result.jsm",
+		"/Users/duckll/modfre/mod1/src/content/lib/utils/domains.jsm",
+		"/Users/duckll/modfre/mod1/src/content/ui/frame.blocked-content.js",
+		"/Users/duckll/modfre/mod1/src/content/lib/utils/constants.jsm",
+		"/Users/duckll/modfre/mod1/src/content/lib/utils.jsm",
+		"/Users/duckll/modfre/mod1/src/content/ui/frame.js",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/System_Program/hw2/HW2-codetest.txt",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/System_Program/hw2/HW2-codetest.lst",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/System_Program/hw2/main.cpp",
+		"/Users/duckll/Google 雲端硬碟/NCYU/宿網工讀生/leader.txt",
+		"/Users/duckll/Dropbox/REAL HACK/b374k.php",
+		"/Users/duckll/Dropbox/Tools/adobe_photoshop_cc2014/說明.txt",
+		"/Users/duckll/Sites/tmp.php",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/System_Program/hw1/b.txt",
+		"/Volumes/RamDisk/h901.asm",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/Assembly/HW9/h901.asm",
+		"/Users/duckll/modfre/mod1/src/content/lib/default-preferences.js",
+		"/Users/duckll/modfre/mod1/src/content/lib/utils/dom.jsm",
+		"/Users/duckll/modfre/mod1/src/content/lib/utils/windows.jsm",
+		"/Users/duckll/modfre/mod1/src/content/lib/utils/strings.jsm",
+		"/Users/duckll/modfre/requestpolicy_org/src/content/lib/utils/observers.jsm",
+		"/Users/duckll/modfre/requestpolicy_org/src/content/lib/utils/files.jsm",
+		"/Users/duckll/modfre/requestpolicy_org/src/content/lib/utils/domains.jsm",
+		"/Users/duckll/modfre/requestpolicy_org/src/content/lib/utils/dom.jsm",
+		"/Users/duckll/modfre/requestpolicy_org/src/content/lib/utils/constants.jsm",
+		"/Users/duckll/modfre/requestpolicy_org/src/content/ui/overlay.js",
+		"/Users/duckll/modfre/requestpolicy_org/src/content/ui/menu.js",
+		"/Users/duckll/modfre/requestpolicy_org/src/content/ui/classicmenu.js",
+		"/Users/duckll/modfre/requestpolicy_org/src/content/ui/request-log.filtering.js",
+		"/Users/duckll/modfre/requestpolicy_org/src/content/ui/request-log.js",
+		"/Users/duckll/modfre/requestpolicy_org/src/content/settings/advancedprefs.html",
+		"/Users/duckll/modfre/mod1/src/content/main/window-manager.listener.js",
+		"/Users/duckll/modfre/mod1/src/content/main/window-manager.jsm",
+		"/Users/duckll/modfre/mod1/src/content/main/window-manager-toolbarbutton.js",
+		"/Users/duckll/modfre/mod1/src/content/main/requestpolicy-service.jsm",
+		"/Users/duckll/modfre/mod1/src/content/main/default-pref-handler.js",
+		"/Users/duckll/modfre/mod1/src/content/main/content-policy.jsm",
+		"/Users/duckll/Desktop/電子商務.txt",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/OS/cpu.cpp",
+		"/Volumes/RamDisk/HW8_1013045_廖子慶/h803.asm",
+		"/Volumes/RamDisk/HW8_1013045_廖子慶/h802.asm",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/Assembly/HW7/h704.asm",
+		"/Volumes/RamDisk/A7.cpp",
+		"/Volumes/RamDisk/HW8_1013045_廖子慶/h801.asm",
+		"/Volumes/RamDisk/requestpolicy-1-0-beta9-2/content/lib/default-preferences.js",
+		"/Users/duckll/modfre/mod1/src/content/main/about-uri.jsm",
+		"/Volumes/RamDisk/requestpolicy/content/lib/default-preferences.js",
+		"/Volumes/RamDisk/requestpolicy/content/lib/environment.jsm",
+		"/Volumes/RamDisk/requestpolicy/content/settings/setup.js",
+		"/Volumes/RamDisk/requestpolicy-1-0-beta9-2/chrome.manifest",
+		"/Volumes/RamDisk/requestpolicy/chrome.manifest",
+		"/Volumes/RamDisk/requestpolicy/content/settings/defaultpolicy.js",
+		"/Volumes/RamDisk/photoshopcc2014/說明.txt",
+		"/Users/duckll/Google 雲端硬碟/NCYU/宿網工讀生/secret.txt",
+		"/Users/duckll/downloads/Adobe CC 2014 破解檔+含破解教學影片/Adobe CC 2014 破解檔+含破解教學影片/XF-CC2014-Keygen-Windows/install.txt",
+		"/Users/duckll/Dropbox/programs/C++/NCYU/高等程設/uva478.cpp",
+		"/Volumes/RamDisk/1032994.cpp",
+		"/Volumes/RamDisk/1032994_driver-example.cpp",
+		"/Users/duckll/Dropbox/programs/C++/NCYU/高等程設/uva860.cpp",
+		"/Users/duckll/Google 雲端硬碟/NCYU/102/Algorithms/closest_pair/main.cpp",
+		"/Users/duckll/Dropbox/programs/C++/E-Tutor/NCPC/NCPC 1998 專甲/2.Coin Change.cpp",
+		"/Users/duckll/Dropbox/programs/C++/E-Tutor/NCPC/NCPC 2000 專甲/4.兩序列的相似程度.cpp",
+		"/Users/duckll/Dropbox/programs/C++/E-Tutor/NCPC/NCPC 1998 專甲/1.Parentheses Balance.cpp",
+		"/Users/duckll/Dropbox/programs/C++/ZeroJudge/a009_解碼器.cpp",
+		"/Users/duckll/Dropbox/programs/C++/ZeroJudge/a008_中文大寫數字.cpp",
+		"/Users/duckll/Dropbox/programs/C++/UVA/532.Dungeon Master.cpp",
+		"/Users/duckll/Dropbox/programs/C++/UVA/10377.Maze Traversal.cpp",
+		"/Users/duckll/Dropbox/programs/C++/PTC/PTC1225/e.cpp",
+		"/Users/duckll/Dropbox/programs/C++/PTC/PTC1225/b.cpp",
+		"/Users/duckll/Dropbox/programs/C++/PTC/PTC1225/a.cpp",
+		"/Users/duckll/Dropbox/programs/C++/PTC/0326/a.cpp",
+		"/Users/duckll/Dropbox/programs/C++/PTC/0122/D.cpp",
+		"/Users/duckll/Dropbox/programs/C++/PTC/0122/B.cpp",
+		"/Users/duckll/Dropbox/programs/C++/UVA/315.Network_v2.cpp",
+		"/Users/duckll/Dropbox/programs/C++/UVA/10608.Friends_v2.cpp",
+		"/Users/duckll/Dropbox/programs/C++/UVA/714.Copying_Books_v2.cpp",
+		"/Users/duckll/Dropbox/programs/C++/UVA/2003-2729.The Solar_System.cpp",
+		"/Users/duckll/Dropbox/programs/C++/UVA/10341.Solve_It.cpp",
+		"/Users/duckll/Dropbox/programs/C++/UVA/294.Divisors.cpp",
+		"/Users/duckll/Dropbox/programs/C++/UVA/10140.Prime_Distance_v5.cpp",
+		"/Users/duckll/Dropbox/programs/C++/UVA/623.500!.cpp",
+		"/Users/duckll/Dropbox/programs/C++/UVA/288.Arithmetic Operations With Large Integers.cpp",
+		"/Users/duckll/Dropbox/programs/C++/NCYU/高等程設/uva10125.cpp",
+		"/Users/duckll/Dropbox/programs/C++/NCYU/高等程設/finalterm/q4.cpp",
+		"/Users/duckll/Dropbox/REAL HACK/burpsuite_pro_v1.5.01/readme.txt",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/System_Program/hw1/2.1.2.txt",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/System_Program/hw1/2.1.2.lst",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/System_Program/hw1/1.3.3.lst",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/System_Program/hw1/1.3.3.txt",
+		"/Users/duckll/Google 雲端硬碟/NCYU/宿網工讀生/note.txt",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/Assembly/HW6/h601.asm",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/Assembly/HW4/h404.asm",
+		"/Volumes/BOOTCAMP/Users/duckll/Desktop/GarenaLoLTW/GameData/Apps/LoLTW/Game/DATA/Menu/fontconfig_zh_TW.txt",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/Assembly/HW5/hw504.asm",
+		"/Users/duckll/Google 雲端硬碟/NCYU/103/Assembly/HW5/hw503.asm"
+	],
+	"find":
+	{
+		"height": 43.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"width",
+			"serials",
+			"listName",
+			"DEFAULT_SUBSCRIPTION_LIST_URL_BASE",
+			".json",
+			"facebook",
+			"console",
+			"console.",
+			"function",
+			"http-response",
+			"dolog",
+			"defaultPolicy",
+			"userRulesets",
+			"checkRequest",
+			"matchedAllowRules",
+			"REQUEST_REASON_DEFAULT_POLICY",
+			"addRequest",
+			"same",
+			"smae",
+			"same",
+			"getidentifier",
+			"img",
+			"RequestResult",
+			"domain",
+			"samedomain",
+			"ManagerForBlockedContent",
+			".mm",
+			"mm",
+			"'mm'",
+			"mm",
+			"ManagerForBlockedContent",
+			"mm",
+			"sendSyncMessage",
+			"check",
+			"sendSyncMessage",
+			"ManagerForBlockedContent",
+			"img",
+			"jpg",
+			"cout",
+			"PASSWORD",
+			"$str",
+			"import",
+			"function",
+			"退",
+			"function",
+			"import",
+			"function",
+			"EXPORTED_SYMBOLS",
+			"import",
+			"function",
+			"import",
+			"function",
+			"import",
+			"function",
+			"import",
+			"function",
+			"import",
+			"function",
+			"import",
+			"function",
+			"import",
+			"function",
+			"import",
+			"defa",
+			"default",
+			"common",
+			"common.switchSubscriptionPolicies()",
+			"welkin_cookie",
+			"group",
+			"name",
+			"s",
+			"sm",
+			"sma",
+			"small",
+			"label",
+			"isempty",
+			"haha",
+			"isempty",
+			"empty",
+			"`",
+			"GET",
+			"function",
+			"},\n",
+			"`",
+			"userdir"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fout",
+			"name",
+			"!isset",
+			"'",
+			"POST",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 45.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 146.0
+	},
+	"pinned_build_system": "",
+	"project": "test.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Google 雲端硬碟/NCYU/103/Assembly/HW5/hw504.asm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 152.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
