@@ -1,4 +1,5 @@
 <?php
+session_start();
 header("Content-type: text/html; charset=utf-8");
 function head(){
 	echo'
@@ -33,9 +34,16 @@ function head(){
 						<li><a href="seesee.php" class="glyphicon glyphicon-eye-open"> 隨處逛逛</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="about.php" class="glyphicon glyphicon-info-sign"> 關於我們</a></li>
-						<li><a href="register.php" class="glyphicon glyphicon-plus"> 註冊</a></li>
-						<li><a href="login.php" class="glyphicon glyphicon-log-in"> 登入</a></li>
+						<li><a href="about.php" class="glyphicon glyphicon-info-sign"> 關於我們</a></li>';
+						if(isset($_SESSION[nick])){
+							echo'<li><a>'.$_SESSION[nick].'</a></li>';
+							echo'<li><a href="logout.php" class="glyphicon glyphicon-log-out"> 登出</a></li>';
+						}
+						else{
+							echo'<li><a href="register.php" class="glyphicon glyphicon-plus"> 註冊</a></li>
+						<li><a href="login.php" class="glyphicon glyphicon-log-in"> 登入</a></li>';
+						}
+						echo'
 					</ul>
 				</div><!-- /.navbar-collapse -->  
 			</div>
