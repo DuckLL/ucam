@@ -42,7 +42,7 @@ head();
 						</li>
 						<li>
 							<a href="find.php?id=a2">
-								五萬以下
+								5萬以下
 							</a>
 						</li>
 						<li class="divider">
