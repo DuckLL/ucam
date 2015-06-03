@@ -21,13 +21,13 @@ head();
 		<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 		<a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 	</div>
-	<div class="col-xs-4 block" style="background: #E8D7FF; width:31%;">
+	<div class="col-xs-4 block" style="background: #E8D7FF; width:30%;">
 		<img src="img/a1.jpg" style="width:100%;">
 	</div>
-	<div class="col-xs-4 block" style="background: #FFD3E8; width:31%;">
+	<div class="col-xs-4 block" style="background: #FFD3E8; width:30%;">
 		<img src="img/a2.jpg" style="width:100%;">
 	</div>
-	<div class="col-xs-4 block" style="background: #FFD7D5; width:31%;">
+	<div class="col-xs-4 block" style="background: #FFD7D5; width:30%;">
 		<img src="img/a3.jpg" style="width:100%;">
 	</div>
 </div>

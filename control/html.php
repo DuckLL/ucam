@@ -41,7 +41,7 @@ function head(){
 						}
 						else{
 							echo'<li><a href="register.php" class="glyphicon glyphicon-plus"> 註冊</a></li>
-						<li><a href="login.php" class="glyphicon glyphicon-log-in"> 登入</a></li>';
+							<li><a href="login.php" class="glyphicon glyphicon-log-in"> 登入</a></li>';
 						}
 						echo'
 					</ul>
@@ -55,6 +55,16 @@ function head(){
 			function tail(){
 				echo'
 			</div>
+		</div>
+		<div id="item1">
+
+		'.$_SESSION[label1].' '.$_SESSION[model1].'<br><img src="img/'.$_SESSION[label1].'/'.$_SESSION[model1].'/main.jpg" style="width:100px;">
+
+		</div>
+		<div id="item2">
+
+		'.$_SESSION[label2].' '.$_SESSION[model2].'<br><img src="img/'.$_SESSION[label2].'/'.$_SESSION[model2].'/main.jpg" style="width:100px;">
+
 		</div>
 	</body>
 	</html>
