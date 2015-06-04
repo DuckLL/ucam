@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once('database.php');
 if(!isset($_POST['account'])||!isset($_POST['password'])||!isset($_POST['password2'])||!isset($_POST['nick'])){
 	header("Location: ../register.php");

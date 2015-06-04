@@ -35,8 +35,8 @@ function head(){
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="about.php" class="glyphicon glyphicon-info-sign"> 關於我們</a></li>';
-						if(isset($_SESSION[nick])){
-							echo'<li><a>'.$_SESSION[nick].'</a></li>';
+						if(isset($_SESSION['nick'])){
+							echo'<li><a>'.$_SESSION['nick'].'</a></li>';
 							echo'<li><a href="logout.php" class="glyphicon glyphicon-log-out"> 登出</a></li>';
 						}
 						else{
@@ -59,17 +59,17 @@ function head(){
 
 		<div id="item1">
 			';
-			if(isset($_SESSION[label1]))
-				echo '<a href="info.php?label='.$_SESSION[label1].'&model='.$_SESSION[model1].'">
-			'.$_SESSION[label1].' '.$_SESSION[model1].'<br><img src="img/'.$_SESSION[label1].'/'.$_SESSION[model1].'/main.jpg" style="width:100px;"></a>';
+			if(isset($_SESSION['label1']))
+				echo '<a href="info.php?label='.$_SESSION['label1'].'&model='.$_SESSION['model1'].'">
+			'.$_SESSION['label1'].' '.$_SESSION['model1'].'<br><img src="img/'.$_SESSION['label1'].'/'.$_SESSION['model1'].'/main.jpg" style="width:100px;"></a>';
 			echo '
 
 		</div>
 		<div id="item2">
 			';
-			if(isset($_SESSION[label2]))
-				echo '<a href="info.php?label='.$_SESSION[label2].'&model='.$_SESSION[model2].'">
-			'.$_SESSION[label2].' '.$_SESSION[model2].'<br><img src="img/'.$_SESSION[label2].'/'.$_SESSION[model2].'/main.jpg" style="width:100px;"></a>
+			if(isset($_SESSION['label2']))
+				echo '<a href="info.php?label='.$_SESSION['label2'].'&model='.$_SESSION['model2'].'">
+			'.$_SESSION['label2'].' '.$_SESSION['model2'].'<br><img src="img/'.$_SESSION['label2'].'/'.$_SESSION['model2'].'/main.jpg" style="width:100px;"></a>
 			';
 			echo '
 		</div>';

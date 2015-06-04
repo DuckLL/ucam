@@ -34,7 +34,7 @@ for($i=0;$i<96;$i++){
 		$model=$Fujifilm[$rnd2];
 		break;
 	}
-	echo '<a href="info?label='.$label.'&model='.$model.'"><img src="img/'.$label.'/'.$model.'/'.$photo[$rnd3].'.jpg" style="width:25%; padding-left:3px;"></a>';
+	echo '<a href="info.php?label='.$label.'&model='.$model.'"><img src="img/'.$label.'/'.$model.'/'.$photo[$rnd3].'.jpg" style="width:25%; padding-left:3px;"></a>';
 }
 echo '</div>';
 

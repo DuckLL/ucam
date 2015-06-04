@@ -149,8 +149,8 @@ head();
 </div>
 <div class="col-xs-9">
 	<?php
-	if(isset($_GET[id])){
-		$id=$_GET[id];
+	if(isset($_GET['id'])){
+		$id=$_GET['id'];
 		switch ($id){
 			case 'a1':
 			$sql="SELECT * FROM camera WHERE price<25000";
@@ -202,23 +202,23 @@ head();
 	while($row = $rs->fetch()){
 		echo '<div class="block">';
 		echo '<div class="col-xs-2">';
-		echo '<img src="img/'.$row[label].'/'.$row[model].'/main.jpg" style="width:100%;">';
-		echo '<a class="btn btn-success" onclick="item(1,\''.$row[label].'\',\''.$row[model].'\')">比較一</a>';
-		echo '<a class="btn btn-info" onclick="item(2,\''.$row[label].'\',\''.$row[model].'\')">比較二</a>';
+		echo '<img src="img/'.$row['label'].'/'.$row['model'].'/main.jpg" style="width:100%;">';
+		echo '<a class="btn btn-success" onclick="item(1,\''.$row['label'].'\',\''.$row['model'].'\')">比較一</a>';
+		echo '<a class="btn btn-info" onclick="item(2,\''.$row['label'].'\',\''.$row['model'].'\')">比較二</a>';
 		echo '</div>';
 		echo '<div class="col-xs-2">';
-		echo $row[label].'<br>';
-		echo $row[model].'<br>';
-		echo $row[feature].'<br>';
-		echo '$'.$row[price].'<br>';
-		echo '<a class="btn btn-warning" href="info.php?label='.$row[label].'&model='.$row[model].'">詳細資料</a>';
+		echo $row['label'].'<br>';
+		echo $row['model'].'<br>';
+		echo $row['feature'].'<br>';
+		echo '$'.$row['price'].'<br>';
+		echo '<a class="btn btn-warning" href="info.php?label='.$row['label'].'&model='.$row['model'].'">詳細資料</a>';
 		echo '</div>';
 		echo '<div class="col-xs-8">';
-		echo '<img src="img/'.$row[label].'/'.$row[model].'/Animal.jpg" style="width:30%;">';
-		echo '<img src="img/'.$row[label].'/'.$row[model].'/Flower.jpg" style="width:30%;">';
-		echo '<img src="img/'.$row[label].'/'.$row[model].'/Night.jpg" style="width:30%;">';
-		echo '<img src="img/'.$row[label].'/'.$row[model].'/People.jpg" style="width:30%;">';
-		echo '<img src="img/'.$row[label].'/'.$row[model].'/Scene.jpg" style="width:30%;">';
+		echo '<img src="img/'.$row['label'].'/'.$row['model'].'/Animal.jpg" style="width:30%;">';
+		echo '<img src="img/'.$row['label'].'/'.$row['model'].'/Flower.jpg" style="width:30%;">';
+		echo '<img src="img/'.$row['label'].'/'.$row['model'].'/Night.jpg" style="width:30%;">';
+		echo '<img src="img/'.$row['label'].'/'.$row['model'].'/People.jpg" style="width:30%;">';
+		echo '<img src="img/'.$row['label'].'/'.$row['model'].'/Scene.jpg" style="width:30%;">';
 		echo '</div>';
 		echo '<div style="clear:both;">';
 		echo '</div>';
