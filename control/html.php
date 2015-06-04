@@ -56,16 +56,24 @@ function head(){
 				echo'
 			</div>
 		</div>
-		<div id="item1">
 
-		'.$_SESSION[label1].' '.$_SESSION[model1].'<br><img src="img/'.$_SESSION[label1].'/'.$_SESSION[model1].'/main.jpg" style="width:100px;">
+		<div id="item1">
+			';
+			if(isset($_SESSION[label1]))
+				echo '<a href="info.php?label='.$_SESSION[label1].'&model='.$_SESSION[model1].'">
+			'.$_SESSION[label1].' '.$_SESSION[model1].'<br><img src="img/'.$_SESSION[label1].'/'.$_SESSION[model1].'/main.jpg" style="width:100px;"></a>';
+			echo '
 
 		</div>
 		<div id="item2">
-
-		'.$_SESSION[label2].' '.$_SESSION[model2].'<br><img src="img/'.$_SESSION[label2].'/'.$_SESSION[model2].'/main.jpg" style="width:100px;">
-
-		</div>
+			';
+			if(isset($_SESSION[label2]))
+				echo '<a href="info.php?label='.$_SESSION[label2].'&model='.$_SESSION[model2].'">
+			'.$_SESSION[label2].' '.$_SESSION[model2].'<br><img src="img/'.$_SESSION[label2].'/'.$_SESSION[model2].'/main.jpg" style="width:100px;"></a>
+			';
+			echo '
+		</div>';
+		echo '
 	</body>
 	</html>
 	';

@@ -21,22 +21,23 @@ head();
 		<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 		<a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 	</div>
+	<a href="find.php">
 	<div class="col-xs-4 block" style="background: #E8D7FF; width:30%;">
-		<img src="img/a1.jpg" style="width:100%;">
+		<img src="img/a1.png" style="width:100%;">
 	</div>
+	</a>
+	<a href="compare.php">
 	<div class="col-xs-4 block" style="background: #FFD3E8; width:30%;">
-		<img src="img/a2.jpg" style="width:100%;">
+		<img src="img/a2.png" style="width:100%;">
 	</div>
+	</a>
+	<a href="seesee.php">
 	<div class="col-xs-4 block" style="background: #FFD7D5; width:30%;">
-		<img src="img/a3.jpg" style="width:100%;">
+		<img src="img/a3.png" style="width:100%;">
 	</div>
+	</a>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<div style="clear:both;"></div>
 <script src="js/carousel.js"></script>
 <?php
 tail();

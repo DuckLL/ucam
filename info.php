@@ -8,11 +8,13 @@ $sql="SELECT * FROM camera WHERE label='".$label."' && model='".$model."'";
 $rs = $db->query($sql);
 while($row = $rs->fetch()){
 	echo '<script src="js/gotitem.js"></script>';
+	echo '<script src="//cdn.ckeditor.com/4.4.7/full/ckeditor.js"></script>';
 	echo '<div class="col-xs-4">';
 	echo '<img src="img/'.$row[label].'/'.$row[model].'/main.jpg" style="width:100%;">';
 	echo '<a class="btn btn-success" onclick="item(1,\''.$row[label].'\',\''.$row[model].'\')">比較一</a>';
 	echo '<a class="btn btn-info" onclick="item(2,\''.$row[label].'\',\''.$row[model].'\')">比較二</a>';
 	echo '<a class="btn btn-warning" onclick="history.back()">返回</a>';	
+	echo '<a target="_blank" class="btn btn-primary" href='.$row[shop].'>賣場</a>';
 	echo '<img src="img/'.$row[label].'/'.$row[model].'/Animal.jpg" style="width:100%; padding-top:10px;">';
 	echo '<img src="img/'.$row[label].'/'.$row[model].'/Flower.jpg" style="width:100%; padding-top:10px;">';
 	echo '<img src="img/'.$row[label].'/'.$row[model].'/Night.jpg" style="width:100%; padding-top:10px;">';
@@ -51,6 +53,43 @@ while($row = $rs->fetch()){
 			echo '<div class="col-xs-8 silver">'.$row[$itemid[$i]].'</div>';
 	}
 	echo '</div>';
+	echo '<div class="col-xs-8"><br></div>';
+	echo '<div class="col-xs-8" style="background:#DDD;">';
+	echo '<table style="width:100%;">';
+	$sql="SELECT * FROM message WHERE label='".$label."' && model='".$model."'";
+	$rs = $db->query($sql);
+	while($row = $rs->fetch()){
+		echo '<tr>';
+		echo '<td style="text-align: left;">';
+		echo $row[content];
+		echo '</td></tr><tr><td style="text-align: right;">';
+		echo $row[user].'______';
+		echo $row[time];
+		echo '</td></tr>';
+		if($row[user]==$_SESSION[nick]){
+			echo '<tr><td>';
+			echo '<a class="btn btn-danger" href="control/deletmessage.php?id='.$row[id].'">刪除</a>';
+			echo '</td></tr>';
+		}
+	}
+	echo '</table>';
+	echo '</div>';
+	echo '<div class="col-xs-8"><br></div>';
+	echo '<div class="col-xs-8" style="background:#DDD;">';
+	if(isset($_SESSION[nick])){
+		echo '<form action="control/message.php?label='.$label.'&model='.$model.'" method="POST">';
+		echo '<label >留言版</label>';
+		echo '<textarea class="form-control ckeditor" name="content" required cols="100" rows="20"> 
+		<?php echo $row[content]; ?>
+	</textarea>';	
+	echo '<input type="submit" value="留言" class="btn btn-primary" align="left">';
+	echo '</form>';		
+}
+else{
+	echo '登入才能使用留言功能';
+}
+
+echo '</div>';
 }
 echo'<div style="clear:both;"></div>';
 tail();

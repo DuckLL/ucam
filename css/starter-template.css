@@ -14,6 +14,16 @@ img{
 
     -webkit-border-radius: 5px;
 }
+div{
+	border-radius: 5px;  /*圓角*/
+
+    -moz-border-radius: 5px;
+
+    -webkit-border-radius: 5px;
+}
+td{
+    text-align: center;
+}
 .starter-template {
 	padding: 40px 15px;
 	text-align: left;
@@ -116,5 +126,25 @@ img{
 #item2:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
 
     left: 10px;
+
+}
+
+#seesee{
+
+    position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+
+    top: 25%;  /*設置垂直位置*/
+
+    right: -5px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+
+    background: #ffffff;  /*背景顏色*/
+
+    padding: 10px 20px;
+
+    border-radius: 10px;  /*圓角*/
+
+    -moz-border-radius: 10px;
+
+    -webkit-border-radius: 10px;
 
 }

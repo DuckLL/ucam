@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"col-",
+				"col-xs-8"
+			],
+			[
+				"iem",
+				"itemid"
+			],
+			[
+				"ali",
+				"vertical-align"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"co",
+				"control/"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
 				"ba",
 				"background-color"
 			],
@@ -75,14 +99,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "find.php",
-			"settings":
-			{
-				"buffer_size": 3781,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -133,25 +149,31 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/duckll/Sites/ucam",
-		"/Users/duckll/Sites/ucam/control",
-		"/Users/duckll/Sites/ucam/css"
+		"/Users/duckll/Sites/ucam"
 	],
 	"file_history":
 	[
-		"/Users/duckll/Sites/ucam/find.php",
+		"/Users/duckll/Sites/ucam/info.php",
+		"/Users/duckll/Sites/ucam/seesee.php",
 		"/Users/duckll/Sites/ucam/css/starter-template.css",
+		"/Users/duckll/Sites/ucam/index.php",
+		"/Users/duckll/Sites/ucam/about.php",
+		"/Users/duckll/Sites/ucam/control/deletmessage.php",
+		"/Users/duckll/Sites/ucam/control/message.php",
+		"/Users/duckll/Sites/ucam/compare.php",
 		"/Users/duckll/Sites/ucam/control/html.php",
+		"/Users/duckll/Sites/ucam/control/gotitem.php",
+		"/Users/duckll/Sites/ucam/find.php",
+		"/Users/duckll/Sites/ucam/js/gotitem.js",
+		"/Users/duckll/Sites/ucam/js/register.js",
 		"/Volumes/RamDisk/hw2_1013045_廖子慶/2b.js",
 		"/Users/duckll/Sites/ucam/control/login.php",
 		"/Users/duckll/Sites/ucam/register.php",
 		"/Users/duckll/Sites/ucam/control/register.php",
-		"/Users/duckll/Sites/ucam/js/register.js",
 		"/Users/duckll/Sites/ucam/control/IDValidate.php",
 		"/Users/duckll/Sites/ucam/css/sidebar.css",
 		"/Users/duckll/Sites/ucam/control/database.php",
 		"/Users/duckll/Sites/ucam/login.php",
-		"/Users/duckll/Sites/ucam/index.php",
 		"/Volumes/RamDisk/toolkit.js",
 		"/Users/duckll/Google 雲端硬碟/NCYU/103/Security_Program_Design/hw2/b3.php",
 		"/Users/duckll/Dropbox/programs/C++/NCYU/106.txt",
@@ -258,15 +280,7 @@
 		"/Users/duckll/Dropbox/programs/C++/UVA/315.Network_v2.cpp",
 		"/Users/duckll/Dropbox/programs/C++/UVA/10608.Friends_v2.cpp",
 		"/Users/duckll/Dropbox/programs/C++/UVA/714.Copying_Books_v2.cpp",
-		"/Users/duckll/Dropbox/programs/C++/UVA/2003-2729.The Solar_System.cpp",
-		"/Users/duckll/Dropbox/programs/C++/UVA/10341.Solve_It.cpp",
-		"/Users/duckll/Dropbox/programs/C++/UVA/294.Divisors.cpp",
-		"/Users/duckll/Dropbox/programs/C++/UVA/10140.Prime_Distance_v5.cpp",
-		"/Users/duckll/Dropbox/programs/C++/UVA/623.500!.cpp",
-		"/Users/duckll/Dropbox/programs/C++/UVA/288.Arithmetic Operations With Large Integers.cpp",
-		"/Users/duckll/Dropbox/programs/C++/NCYU/高等程設/uva10125.cpp",
-		"/Users/duckll/Dropbox/programs/C++/NCYU/高等程設/finalterm/q4.cpp",
-		"/Users/duckll/Dropbox/REAL HACK/burpsuite_pro_v1.5.01/readme.txt"
+		"/Users/duckll/Dropbox/programs/C++/UVA/2003-2729.The Solar_System.cpp"
 	],
 	"find":
 	{
@@ -393,98 +407,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "find.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3781,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3764,
-								3764
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content"
-							],
-							"origin_encoding": "UTF-8",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2167.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
