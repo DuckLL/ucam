@@ -34,6 +34,19 @@ function head(){
 						<li><a href="seesee.php" class="glyphicon glyphicon-eye-open"> 隨處逛逛</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
+					<li style="width:400px;">'."<script>
+  (function() {
+    var cx = '003364019149191935487:uylv9r0fgec';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>".'</li>
 						<li><a href="about.php" class="glyphicon glyphicon-info-sign"> 關於我們</a></li>';
 						if(isset($_SESSION['nick'])){
 							echo'<li><a>'.$_SESSION['nick'].'</a></li>';
