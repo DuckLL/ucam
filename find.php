@@ -6,7 +6,7 @@ head();
 <link href="css/sidebar.css" rel="stylesheet" type="text/css">
 <script src="js/gotitem.js"></script>
 <div class="col-xs-3">
-	<nav class="navbar navbar-default sidebar" role="navigation">
+	<nav class="navbar navbar-default sidebar" role="navigation" style="margin-left: 0px;">
 		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-sidebar-navbar-collapse-1">
