@@ -21,7 +21,7 @@ if(isset($_SESSION['label1']) && isset($_SESSION['label2'])){
 	echo '<img src="img/'.$row2['label'].'/'.$row2['model'].'/main.jpg" style="height:200px;">';
 	echo '</td>';
 	echo '</tr>';
-	$item=array("廠牌","型號","特色","價錢","感光元件","像素","影像品質","最高ISO","ISO純淨度","動態範圍","連拍速度","錄影品質","觸控螢幕","防塵防滴","翻轉螢幕","Wi-Fi","動物","近物","夜景","人像","風景");
+	$item=array("廠牌","型號","特色","價錢","感光元件<br>(越大細節越多)","像素<br>(如需輸出越大越好)","影像品質<br>(處理細節)","最高ISO<br>(低光源拍攝能力)","ISO純淨度<br>(夜景雜訊)","動態範圍<br>(修圖寬容度)","連拍速度<br>(運動需要)","錄影畫質","觸控螢幕","防塵防滴","翻轉螢幕","Wi-Fi","動物","近物","夜景","人像","風景");
 	$itemid=array('label','model','feature','price','cmos','resolution','quality','maxiso','isonoise','dynamic','fps','movier','touch','weather','flip','wifi','Animal','Flower','Night','People','Scene');
 	for($i=0;$i<16;$i++){
 		$a=$row1[$itemid[$i]];
