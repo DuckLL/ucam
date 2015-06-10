@@ -9,12 +9,12 @@ $Pentax=array("645D","K-3","K-50","K-5lls","Q7");
 $Fujifilm=array("X-A1","X-E2","X-M1","X-Pro1","X-T1");
 $photo=array("Animal","Flower","Night","People","Scene");
 for($i=0;$i<48;$i++){
-    if($_GET['type']==1)
+    if(isset($_GET['type'])&&$_GET['type']==1)
         $rnd1=$_GET['num'];
     else
         $rnd1=rand(0,4);
 	$rnd2=rand(0,4);
-    if($_GET['type']==2)
+    if(isset($_GET['type'])&&$_GET['type']==2)
         $rnd3=$_GET['num'];
     else
         $rnd3=rand(0,4);
