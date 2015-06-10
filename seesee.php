@@ -8,10 +8,16 @@ $Sony=array("A5100","A6000","A7R","A7S","A99");
 $Pentax=array("645D","K-3","K-50","K-5lls","Q7");
 $Fujifilm=array("X-A1","X-E2","X-M1","X-Pro1","X-T1");
 $photo=array("Animal","Flower","Night","People","Scene");
-for($i=0;$i<96;$i++){
-	$rnd1=rand(0,4);
+for($i=0;$i<48;$i++){
+    if($_GET['type']==1)
+        $rnd1=$_GET['num'];
+    else
+        $rnd1=rand(0,4);
 	$rnd2=rand(0,4);
-	$rnd3=rand(0,4);
+    if($_GET['type']==2)
+        $rnd3=$_GET['num'];
+    else
+        $rnd3=rand(0,4);
 	switch ($rnd1) {
 		case 0:
 		$label="Canon";
@@ -40,6 +46,21 @@ echo '</div>';
 
 tail();
 echo '<div id="seesee">';
-echo '<a class="btn btn-info" onclick="location.reload() ">隨機</a>';
+echo '<a class="btn btn-info" onclick="location.reload()">隨機</a>';
+echo '<a class="btn btn-info" href="seesee.php">重設</a>';
+echo '</div>';
+echo '<div id="label">';
+echo '<a class="btn btn-info" href="seesee.php?type=1&num=0">Canon</a>';
+echo '<a class="btn btn-info" href="seesee.php?type=1&num=1">Nikon</a>';
+echo '<a class="btn btn-info" href="seesee.php?type=1&num=2">Sony</a>';
+echo '<a class="btn btn-info" href="seesee.php?type=1&num=3">Pentax</a>';
+echo '<a class="btn btn-info" href="seesee.php?type=1&num=4">Fujifilm</a>';
+echo '</div>';
+echo '<div id="type">';
+echo '<a class="btn btn-info" href="seesee.php?type=2&num=0">動物</a>';
+echo '<a class="btn btn-info" href="seesee.php?type=2&num=1">近物</a>';
+echo '<a class="btn btn-info" href="seesee.php?type=2&num=2">夜景</a>';
+echo '<a class="btn btn-info" href="seesee.php?type=2&num=3">人像</a>';
+echo '<a class="btn btn-info" href="seesee.php?type=2&num=4">風景</a>';
 echo '</div>';
 ?>

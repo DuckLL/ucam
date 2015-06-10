@@ -135,7 +135,7 @@ td{
 
     top: 25%;  /*設置垂直位置*/
 
-    right: -5px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+    right: -50px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
 
     background: #ffffff;  /*背景顏色*/
 
@@ -146,5 +146,61 @@ td{
     -moz-border-radius: 10px;
 
     -webkit-border-radius: 10px;
+
+}
+#seesee:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+
+    right: -10px;
+
+}
+
+#label{
+
+    position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+
+    top: 40%;  /*設置垂直位置*/
+
+    right: -300px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+
+    background: #ffffff;  /*背景顏色*/
+
+    padding: 10px 20px;
+
+    border-radius: 10px;  /*圓角*/
+
+    -moz-border-radius: 10px;
+
+    -webkit-border-radius: 10px;
+
+}
+
+#label:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+
+    right: -10px;
+
+}
+#type{
+
+    position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+
+    top: 60%;  /*設置垂直位置*/
+
+    right: -250px;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+
+    background: #ffffff;  /*背景顏色*/
+
+    padding: 10px 20px;
+
+    border-radius: 10px;  /*圓角*/
+
+    -moz-border-radius: 10px;
+
+    -webkit-border-radius: 10px;
+
+}
+
+#type:hover{  /*當滑鼠移至此區塊時，伸縮區塊*/
+
+    right: -10px;
 
 }
